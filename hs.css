@@ -1,0 +1,190 @@
+
+html { 
+    overflow-x: hidden; }
+*{
+   margin: 0;
+   padding: 0;
+    font-family: "poppins", sans-serif;
+}
+.banner{
+   width:100%;
+   height:75vh;
+   background-image:linear-gradient(rgba(5, 1, 1, 0.75),rgb(57, 57, 59)),url(slider1.jpg);
+   background-size:cover;
+   background-position:center;
+   }
+   .nav-bar{
+  height: 30%;
+  width: 100%;
+  position: fixed;
+
+}
+.nav-bar img{
+   position: fixed;
+   top:4%;
+   left: 5%;
+}
+.navb a{
+   color: white;
+   text-decoration: none;
+}
+.navb :hover{
+   color:black;
+   box-shadow: 2px;
+  
+}
+.navb{
+   position: fixed;
+   left: 75%;
+   top:4%;
+}
+.logo{
+   width:120px;
+   cursor:pointer;
+   }
+
+.content{
+   width: 1253px;
+   position:absolute;
+   top:70%;
+ 
+   transform:translateY(-50%);
+   text-align:center;
+color:white;
+}
+.content h1{
+   font-size: large;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content p{
+   font-family: 'Courier New', Courier, monospace;
+}* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100100px;
+  position: relative;
+  margin: auto;
+  position: absolute;
+  top:20%;
+  left: 30%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+left: 55%;
+ right: 80%;
+ 
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.grey{
+    background-color: rgb(34, 38, 49);
+    display: flex;
+    float: left;
+    float: right;
+    clear: both;
+    height: 100%;
+    padding-bottom: 30px;
+}
+.inspo{
+    margin-top: 10px;
+    width: 47%;
+    color:white;
+    padding-left: 30px;
+}
+.hostel{
+    margin-top: 10px;
+    width: 50%;
+    color: white;padding-left: 30px;
+}
+.grey h1{
+    color: rgb(167, 126, 50);padding-left: 30px;
+}
+.loc{
+  padding: 10px;
+    background-color: rgb(34, 38, 49);
+    display: flex;
+    float: left;
+    float: right;
+    clear: both;
+    color: white;}
+   
+.loc h1{
+    color: rgb(167, 126, 50);
+    padding-left: 30px;
+}
+.loc p{
+    padding-top: 10px;
+    padding-left: 30px;
+    text-align: justify;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: larger;}
+.add{
+    display: grid;
+    padding-left: 30px;
+    place-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+.fnav{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    background-color: transparent;
+    color: rgb(133, 31, 31);
+    
+}
+.fnava{
+    position: fixed;
+    right: 5%;
+    
+}
+.fnava a
+{
+    color: white;
+}
+.fnava a:hover{
+    color: rgb(167, 126, 50);
+}

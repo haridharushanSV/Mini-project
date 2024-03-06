@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hs.css">
+    <title>HOSTIFY STUDENTS PORTAL</title>
+</head>
+<body>
+    <div class="banner">
+        <div class="nav-bar">
+            <img src="logo-2.png" class="logo">
+          <nav class="navb">
+                <a href="#">HOME</a>&nbsp
+                <a href="outpass.html">OUT PASS</a>&nbsp
+                <a href="outing.html">OUTING</a>&nbsp
+                <a href="feedback.html">FEEDBACK</a>&nbsp
+              </nav>
+        </div>
+        
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              
+              <img src="s2.jpg" style="width:60%">
+             
+            </div>
+          
+            <div class="mySlides fade">
+              
+              <img src="s1.jpg" style="width:60%">
+              
+            </div>
+          
+            <div class="mySlides fade">
+             
+              <img src="slider5.jpg"style="width:60%">
+              
+            </div>
+          
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>   
+         
+       
+    </div>
+    <div class="content">
+      <marquee>special dinner of April  month is here! 13.04.2024     <<The veg treat of MUSHROOM SAMOSA>>!! Treated with *watermelon juice !   Dinner added with Extra "Roasted Brussels Sprouts & Potatoes " with Hyderabadi Veg Dum Biryani!</marquee>
+    </div> 
+    <div class="grey">
+        <div class="inspo">
+            <h1>INSTITUTION PROFILE</h1><br>
+            <p>Dr.Mahalingam College of Engineering and Technology(MCET) was established in the year 1998 by Dr.M.MANICKAM with a view to commemorate the 75 th birthday of his beloved father Arutchelvr Dr.N.MAHALINGAM . The mission of MCET is to impart high quality competency based education in Engineering & Technology to the younger generation with the required skills and abilities to face the challenging needs of the industry around the globe.
+
+                MCET is a self-financing, co-educational Autonomous Engineering College and it is approved by All India Council for Technical Education (AICTE), New Delhi & affiliated to Anna University. All eligible UG Programmes have received Tier 1 Accreditation from National Board of Accreditation ( Tier1), New Delhi. MCET currently offers 10 UG , 6 PG programmes and 5 Doctoral programmes.</p>
+        </div>
+        <div class="hostel">
+            <h1>Hostel Profile</h1><br>
+            <p>A hostel is a budget-friendly accommodation option typically favored by travelers, backpackers, students, and those on a tight budget. Here's a description covering various aspects:
+
+                Accommodation: Hostels provide shared accommodations, usually in dormitory-style rooms with bunk beds. However, some hostels also offer private rooms for those seeking more privacy.
+                
+                Facilities: Most hostels offer communal facilities such as bathrooms, kitchens, common areas, and sometimes laundry facilities. Some hostels may also provide extras like breakfast, Wi-Fi, lockers, and luggage storage.
+                
+                Social Atmosphere: Hostels are known for their social atmosphere, making them ideal places to meet fellow travelers from around the world. Common areas such as lounges or outdoor spaces often facilitate interactions among guests, fostering a sense of community.
+                
+                Affordability: Hostels are generally much cheaper than hotels or other forms of accommodation, making them attractive to budget-conscious travelers. By sharing facilities and rooms, guests can save money on accommodation costs.<br>
+                
+                Security: While hostels offer shared accommodations, they also prioritize security. Many hostels have keycard access to rooms, lockers for valuables, and security cameras to ensure the safety of guests and their belongings.</p>
+        </div>
+            
+
+    </div>
+    <div class="loc">
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.0161791284313!2d77.03376937509853!3d10.655850689485716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8370d5cf1c86f%3A0x50220f1c97a228c5!2sDr.%20Mahalingam%20College%20of%20Engineering%20and%20Technology!5e0!3m2!1sen!2sin!4v1709745050187!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="add">
+        <h1>ADDRESS FOR COMMUNICATION</h1>
+        <p>Dr.Mahalingam College of Engineering and Technology<br>
+            Makkinampatti Post, Udumalai Road,
+            Pollachi - 642003
+            Coimbatore (Dist.) Tamilnadu.</p>
+    </div>
+</div>
+<footer class="fnav">
+    <nav class="fnava"> 
+        <a style="text-decoration:none" class="" href="#" class="act"> Facebook </a>&nbsp
+        <a style="text-decoration:none"  class="" href="https://www.instagram.com/hwc_mcet_nptc?igsh=MWo1bGFwNTUxZzFqdw=="> Instagram </a>&nbsp
+        <a style="text-decoration:none"  class="" href="##"> Linkedin </a>&nbsp
+</body>
+<script>
+    let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</html>
